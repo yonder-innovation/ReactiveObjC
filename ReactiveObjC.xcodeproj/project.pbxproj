@@ -2008,6 +2008,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D04725E019E49ED7006002AA;
@@ -2931,6 +2932,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -2948,6 +2950,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -3063,6 +3066,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
 				SWIFT_VERSION = 4.2;
 			};
@@ -3104,7 +3108,7 @@
 				CODE_SIGNING_REQUIRED = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactivecocoa.$(PRODUCT_NAME:rfc1034identifier)-Tests";
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -3146,6 +3150,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = ReactiveObjCTests/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
